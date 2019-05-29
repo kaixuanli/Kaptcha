@@ -23,8 +23,8 @@ public class RestRepSpeechController {
     private RepSpeechService repSpeechService;
 
     @PostMapping("/list")
-    public PageResult getAll(SpeechConditionVO vo) {
-        PageInfo<Speech> pageInfo = repSpeechService.findPageBreakByCondition(vo);
+    public PageResult getAll() {
+        PageInfo<Speech> pageInfo = repSpeechService.findPageBreakByCondition();
         return PageUtil.tablePage(pageInfo);
     }
 

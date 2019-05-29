@@ -13,6 +13,6 @@ import com.github.pagehelper.PageInfo;
  */
 public interface RepSpeechService  {
 
-    PageInfo<Speech> findPageBreakByCondition(SpeechConditionVO vo);
+    PageInfo<Speech> findPageBreakByCondition();
 
 }

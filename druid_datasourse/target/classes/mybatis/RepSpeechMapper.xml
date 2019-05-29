@@ -17,10 +17,9 @@
 		<result property="value" jdbcType="INTEGER" column="count" />
 	</resultMap>
 	<select id="findPageBreakByCondition" parameterType="com.druid.test.abstracts.SpeechConditionVO" resultMap="rm">
-		SELECT
-			top (10) id
-		FROM
-			rep_speech t
+		SELECT * FROM rep_speech t
+		LIMIT 0, 10
+
 	</select>
 
 </mapper>

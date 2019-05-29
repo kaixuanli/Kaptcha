@@ -27,9 +27,9 @@ public class RepSpeechServiceImpl implements RepSpeechService {
     private RepSpeechMapper repSpeechMapper;
 
     @Override
-    public PageInfo<Speech> findPageBreakByCondition(SpeechConditionVO vo) {
-        PageHelper.startPage(vo.getPageNumber(), vo.getPageSize());
-        List<RepSpeech> list = repSpeechMapper.findPageBreakByCondition(vo);
+    public PageInfo<Speech> findPageBreakByCondition() {
+
+        List<RepSpeech> list = repSpeechMapper.findPageBreakByCondition();
         if (CollectionUtils.isEmpty(list)) {
             return null;
         }
