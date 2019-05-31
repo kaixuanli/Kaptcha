@@ -15,7 +15,7 @@ import java.awt.image.BufferedImage;
 
 /**
  * 生成验证码，以图片形式输出
- * @author likaixuna email:likaixuan(a)innodev.com.cn
+ * @author likaixuan email:likaixuan(a)innodev.com.cn
  * @Date: 2019/5/24 11:59
  * @Version 1.0
  */

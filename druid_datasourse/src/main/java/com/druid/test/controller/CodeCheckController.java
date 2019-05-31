@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 将用户输入的验证码和后台进行比对
- * @author likaixuna email:likaixuan(a)innodev.com.cn
+ * @author likaixuan email:likaixuan(a)innodev.com.cn
  * @Date: 2019/5/24 15:45
  * @Version 1.0
  */

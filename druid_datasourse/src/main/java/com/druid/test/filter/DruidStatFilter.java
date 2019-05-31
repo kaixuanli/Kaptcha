@@ -6,7 +6,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebInitParam;
 
 /**
- * @author likaixuna email:likaixuan(a)innodev.com.cn
+ * @author likaixuan email:likaixuan(a)innodev.com.cn
  * @Date: 2019/5/20 18:21
  * @Version 1.0
  */

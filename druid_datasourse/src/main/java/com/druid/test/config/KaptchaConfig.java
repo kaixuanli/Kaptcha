@@ -9,7 +9,7 @@ import java.util.Properties;
 
 /**
  * 验证码生成规则
- * @author likaixuna email:likaixuan(a)innodev.com.cn
+ * @author likaixuan email:likaixuan(a)innodev.com.cn
  * @Date: 2019/5/24 11:56
  * @Version 1.0
  */
